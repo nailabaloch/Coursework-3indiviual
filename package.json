@@ -1,11 +1,13 @@
 {
-    "name": "Galaxy School",
+    "name": "GalaxySchool",
     "version": "0.1.0",
     "private": true,
+    "homepage": "https://fahad09922khan.github.io/CourseWork3Individual/",
     "scripts": {
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build",
-        "lint": "vue-cli-service lint"
+        "lint": "vue-cli-service lint",
+        "deploy": "npm run build && gh-pages -d dist"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "^6.4.0",
